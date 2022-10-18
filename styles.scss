@@ -1,0 +1,17 @@
+
+$primary: #5265E1; 
+$secondary: #FA5959;
+$danger: #8a8894;
+
+$accordion-button-icon:url("/Imagenes/icon-arrow.svg");
+
+$nav-link-hover-color: #FA5959;
+$nav-link-color: #807a7a;
+$nav-tabs-link-active-color: #000000;
+
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    border-bottom: 3px solid $secondary;
+  }
